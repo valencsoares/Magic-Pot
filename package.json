@@ -1,0 +1,14 @@
+{
+  "name": "magic-pot",
+  "version": "1.0.0",
+  "description": "Site de receitas!",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Valentina",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^14.2.4"
+  }
+}
