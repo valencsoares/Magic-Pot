@@ -114,3 +114,46 @@ body {
     margin-top: 6.5%;
     text-align: center;
 }
+
+.imagem {
+    width: 100%; 
+    height: 100%;
+    overflow: hidden; 
+}
+  
+.imagem img {
+    width: 100%; 
+    height: 30rem; 
+    object-fit: cover; 
+}
+
+.textoHome {
+    margin: 0;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.aHome{
+    text-decoration: none; 
+    background-color: rgb(255, 121, 38);
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    font-size: 1.5rem; 
+    border-radius: 5px; 
+}
+
+.aHome:hover {
+    background-color: rgb(231, 88, 0); 
+}
+
+.catalogoHome {
+    text-align: center;
+    background-color: rgb(231, 88, 0);
+    height: 4rem;
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
