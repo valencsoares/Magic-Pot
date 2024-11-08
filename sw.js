@@ -1,5 +1,5 @@
-let cacheName = "Site de Receitas";
-let filesToCache = ["/", "/index.html", "/css/style.css", "/js/main.js"];
+let cacheName = "Magic Pot";
+let filesToCache = ["/", "/index.html", "/css/style.css", "/js/main.js", "/pages/carnes", "/pages/doces", "/pages/massas"];
 
 self.addEventListener("install", (e) => {
     e.waitUntil(

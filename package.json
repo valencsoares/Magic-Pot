@@ -1,7 +1,7 @@
 {
   "name": "magic-pot",
   "version": "1.0.0",
-  "description": "Site de receitas!",
+  "description": "Magic Pot!",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
