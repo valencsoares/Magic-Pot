@@ -1,0 +1,116 @@
+html,
+body {
+    margin: 0;
+    background-color: #005247;
+    color: #fff;
+}
+
+.header {
+    display: inline-flex;
+    width: 100%;
+    height: 12%;
+    background-color: #fff;
+    top: 0;
+    align-items: center;
+    position: fixed;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.navHeader ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navHeader li {
+    margin-right: 20px;
+}
+
+.logo {
+    max-width: 5rem;
+    max-height: 5rem;
+    margin-bottom: 3%;
+}
+
+.linhas {
+    text-decoration: none;
+    color: rgb(255, 98, 0);
+    font-size: 1.5rem;
+}
+
+.container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container p {
+    text-align: center;
+}
+
+.card {
+    width: 25rem;
+    height: 35rem;
+    padding: 16px;
+    border: 1px solid rgb(210, 81, 0);
+    border-radius: 8%;
+    margin: 0 1% 3% 1%;
+    background-color: rgb(255, 125, 44);
+    transition: transform 0.2s;
+}
+
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(210, 81, 0);
+}
+
+.receita {
+    display: none;
+    background-color: #168172;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow-x: initial;
+    flex-grow: 1;
+    min-height: 100px;
+    max-height: 10rem;
+    overflow-y: scroll;
+}
+
+.ingredientes {
+    max-height: 3rem;
+    overflow-y: scroll;
+    list-style-type: none;
+}
+
+.card:hover .receita {
+    display: block;
+}
+
+.titulo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.img {
+    height: 10rem;
+    width: 25rem;
+    object-fit: cover;
+    border-radius: 7%;
+}
+
+.colunaText {
+    flex: 1;
+    margin-left: 3%;
+}
+
+.texto {
+    margin-top: 6.5%;
+    text-align: center;
+}
